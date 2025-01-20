@@ -1,7 +1,8 @@
 PREDEF:
 
 CHAPS:
-  - cg-python-guidebook.re
+  - chapter_01.re
+  - chapter_02.re
 
 APPENDIX:
 
