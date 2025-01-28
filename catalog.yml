@@ -1,8 +1,11 @@
 PREDEF:
+  - intro.re
 
 CHAPS:
   - chapter_01.re
   - chapter_02.re
+  - chapter_03.re
+  - chapter_04.re
 
 APPENDIX:
 
