@@ -15,7 +15,7 @@
 //}
 
 //embed[latex]{
-\clearpage
+\newpage
+~
+\newpage
 //}
-
-　
