@@ -14,8 +14,3 @@
 むぅん
 //}
 
-//embed[latex]{
-\newpage
-~
-\newpage
-//}
