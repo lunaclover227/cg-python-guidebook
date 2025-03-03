@@ -1,9 +1,13 @@
 PREDEF:
+  - intro.re
 
 CHAPS:
-  - cg-python-guidebook.re
+  - chapter_01.re
+  - chapter_02.re
+  - chapter_03.re
 
 APPENDIX:
 
 POSTDEF:
-
+  - postscript.re
+  - bib.re
