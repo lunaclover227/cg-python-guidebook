@@ -284,20 +284,20 @@
 
 颯「区別するためには……何か名前をつけてあげるとか？」
 
-泉「大正解！再利用したい値に何かしらの名前をつけてあげることで、以降その名前を使って繰り返し利用できるようになるんだ。このように、値に名前をつけたものを@<kw>{変数, variable}といい、変数に名前をつけることを@<kw>{代入, assignment}というんだ。変数への値の代入は@<list>{define_assignment}のように行うんだけど、この一文を@<kw>{代入文, assignment statement}というよ」
+泉「大正解！再利用したい値に何かしらの名前をつけてあげることで、以降その名前を使って繰り返し利用できるようになるんだ。このように、値に名前をつけたものを@<kw>{変数, variable}というんだ。名前をつけるときはイコール『@<code>{=}』を用いるんだけど、@<list>{define_assignment}に示す一文のことを@<kw>{代入文, assignment statement}、またその操作のことを@<kw>{代入, assignment}というよ」
 
 //list[define_assignment][変数への値の代入(代入文)]{
     変数の名前 = 値
 //}
 
-泉「ここで、『@<code>{=}』は@<kw>{代入演算子, assignment operator}と呼ばれる演算子の一種で、Shiftキーと一緒に『ほ』と書かれたキーを押すと入力できるよ。怒涛のワードラッシュだけど、頑張ってついてきてね。試しに、@<code>{1 + 1}に@<code>{a}、@<code>{5 - 2}に@<code>{b}という名前をつけてみよう(@<list>{assignment_sample})」
+泉「ここで、『@<code>{=}』は@<kw>{代入演算子, assignment operator}と呼ばれる演算子の一種で、Shiftキーと一緒に『ほ』と書かれたキーを押すと入力できるんだ。怒涛のワードラッシュだけど、頑張ってついてきてね。試しに、@<code>{1 + 1}に@<code>{a}、@<code>{5 - 2}に@<code>{b}という名前をつけてみよう(@<list>{assignment_sample})」
 
 //listnum[assignment_sample][代入の例@<fn>{1_assign_a}]{
 a = 1 + 1
 b = 5 - 2
 //}
 
-//footnote[1_assign_a][例えば、@<code>{a = 1 + 1}は『@<code>{a}イコール@<code>{1 + 1}』、『@<code>{a}に@<code>{1 + 1}を代入する』などと読みます。]
+//footnote[1_assign_a][例えば、@<code>{a = 1 + 1}は『@<code>{a}イコール@<code>{1 + 1}』、『@<code>{a}に@<code>{1 + 1}(の結果)を代入する』などと読みます。]
 
 泉「この2行をセルに入力して実行してみると、どうなるかな？」
 
