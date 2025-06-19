@@ -379,9 +379,9 @@ print(type(int(5.0)))
 泉「ちなみに、元が整数でない(小数点以下が0でない)値を@<code>{int}型へキャストしたときは、正か負かにかかわらず小数点以下が切り捨てられるのは抑えておきたい仕様かな。四捨五入ではないから注意だね(@<list>{float_to_int_2})」
 
 //listnum[float_to_int_2][@<code>{int}型へのキャストで小数点以下が切り捨てられることを確認する]{
-print(float(4.3))
-print(float(4.7))
-print(float(-2.9))
+print(int(4.3))
+print(int(4.7))
+print(int(-2.9))
 //}
 
 泉「このように、計算の結果@<code>{int}型になるか@<code>{float}型になるかはPython側に任せちゃって、何かしらの理由で自分の好きな型に変換したいときは@<code>{int}関数や@<code>{float}関数を用いるのが基本的な考え方なんだ」
