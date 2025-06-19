@@ -436,8 +436,8 @@ print(type(float("3.14")))
 泉「@<code>{bool}型の値ももちろん@<code>{type}で型を調べることができるよ(@<list>{type_bool})。@<code>{True}と@<code>{False}はどちらも頭文字が大文字であることに注意してね。@<code>{true}や@<code>{TRUE}といった書き方はできないんだ」
 
 //listnum[type_bool][@<code>{True}, @<code>{False}の型を確認する]{
-type(True)
-type(False)
+print(type(True))
+print(type(False))
 //}
 
 泉「今はまだこれらの使い道はよくわからないと思うんだけど、後ほど学習する@<ttb>{if文}に欠かせないとても重要な概念だから、頭の片隅に入れておいてね」
