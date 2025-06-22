@@ -66,7 +66,7 @@
 
 泉「それにはいくつか理由があるんだけど、ここでは特に大きな理由を2つ説明するね」
 
-=== Pythonが初学者向けである理由1: コードのシンプルさ
+==={python_for_beginner_1} Pythonが初学者向けである理由1: コードのシンプルさ
 
 泉「まずは何と言ってもPythonではコードをシンプルかつ簡単に書けること。例えば以下にC言語@<fn>{c_lang}、Java(ジャバ)@<fn>{java}という2つの言語とPythonでそれぞれ"Hello, world!"という文字を出力するコードを示してみたんだけど、比べてみてどう？(@<list>{c_hello}, @<list>{java_hello}, @<list>{python_hello})」
 
