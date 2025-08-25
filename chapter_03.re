@@ -609,11 +609,11 @@ age = 15
 泉「そして、最後の@<kw>{予約語}というのは既にPythonによって役割が与えられていて、変数名として使えない名前のことだよ。@<table>{reserved_word_list}に示した35種類の名前は使えないから注意してね」
 
 //table[reserved_word_list][予約語の一覧]{
-False	None	True	and	as	assert	async
-await	break	class	continue	def	del	elif
-else	except	finally	for	from	global	if
-import	in	is	lambda	nonlocal	not	or
-pass	raise	return	try	while	with	yield
+@<code>{False}	@<code>{None}	@<code>{True}	@<code>{and}	@<code>{as}	@<code>{assert}	@<code>{async}
+@<code>{await}	@<code>{break}	@<code>{class}	@<code>{continue}	@<code>{def}	@<code>{del}	@<code>{elif}
+@<code>{else}	@<code>{except}	@<code>{finally}	@<code>{for}	@<code>{from}	@<code>{global}	@<code>{if}
+@<code>{import}	@<code>{in}	@<code>{is}	@<code>{lambda}	@<code>{nonlocal}	@<code>{not}	@<code>{or}
+@<code>{pass}	@<code>{raise}	@<code>{return}	@<code>{try}	@<code>{while}	@<code>{with}	@<code>{yield}
 //}
 
 //tip{
@@ -622,16 +622,16 @@ pass	raise	return	try	while	with	yield
 
 颯「予約語って結構たくさんあるんだね。これ、覚えられるかな……」
 
-泉「この表を覚える必要はないから安心して。よく見ると@<code>{nonlocal}や@<code>{yield}のように、大半がまず自分でつけようと思わない名前でしょ？それにColabでは、予約語を青や紫といった特殊な色で表示するようになっているから、すぐに区別できるようになっているんだ。そして、たとえ間違えて予約語で名前をつけてしまっても、エラーになるから大丈夫だよ(@<img>{syntax_error_for})」
+泉「この表を覚える必要はないから安心して。よく見ると@<code>{nonlocal}や@<code>{yield}のように、大半がまず自分でつけようと思わない名前でしょ？それにColabでは、予約語を青や紫といった特殊な色で表示するようになっているから、すぐに区別できるようになっているんだ。そして、たとえ間違えて予約語で名前をつけてしまっても、エラーになるから大丈夫だよ(@<img>{syntax_error_true})」
 
-//image[syntax_error_for][予約語である@<code>{for}を変数名としたときのエラー]{
+//image[syntax_error_true][予約語である@<code>{True}を変数名としたときのエラー]{
 //}
 
 りあむ「大丈夫っていうのかなこれ……いかついメッセージ出ちゃってますけど……」
 
 泉「これまでも何度かエラーメッセージを見てきたけど、英語だから難しそうに見えるだけ。むしろ、教えてくれるだけ親切なんだよ@<fn>{syntax_error_explanation}。本当に怖いのは、エラーもなくPythonを壊してしまうこと。まずは以下のコードをセルに入力してみよう(@<list>{assignment_print_1})」
 
-//footnote[syntax_error_explanation][せっかくなので、簡単に解説します。@<img>{syntax_error_for}には@<code>{SyntaxError: invalid syntax}と表示されていますが、これを日本語に訳すと「構文エラー: 不正な構文」という意味になります。後ほど詳しく解説しますが、forは@<ttb>{for文}というある特別な命令に用いるワードで、forの後には続けて何かしらの変数名を書かなければならないルールとなっています。ここに演算子である=(イコール)が来ることはありえないので、このようなエラーが出力されているのです。変数名としてforを用いたから怒られた、というよりむしろ@<ttb>{for文だと思ってたのにありえない記号が隣に並んでるんですけどどういうことですか}、というニュアンスのほうが近いかもしれません。]
+//footnote[syntax_error_explanation][@<img>{syntax_error_true}には@<code>{SyntaxError: cannot assign to True}と表示されていますが、これを日本語に訳すと「構文エラー: @<code>{True}には代入できません」という意味になります。そのまんまですね。assignという英単語の意味が「代入する」だと分かれば訳すことができるかと思います。これまで重要な用語を説明する際に英語も添えていたのは、こういった文章を訳す際に意外と役立ったりするからです。もちろん英語も必ずセットで覚えなければならない、という意味ではありませんが、]
 
 //listnum[assignment_print_1][@<code>{print}に@<code>{"夢見りあむ"}を代入する]{
 print = "夢見りあむ"
